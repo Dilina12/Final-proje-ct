@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emergency Alerts</title>
+  <link rel="stylesheet" href="alerts.css"> <!-- Ensure this path is correct -->
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="../Home/index.html">Home</a></li>
+      <li><a href="../Home/index.html#login">Login</a></li>
+      <li><a href="../Mood/mood.html">Log Mood</a></li>
+      <li><a href="../Vmood/Vmood.html">View Mood</a></li>
+      <li><a href="../Alerts/alerts.html">Emergency Alerts</a></li>
+      <li><a href="../Consultation/consultation.html">Consultations</a></li>
+    </ul>
+  </nav>
+
+  <img src="logo1.png" alt="Euphoria Logo" class="logo-overlay">
+
+  <!-- Emergency Alerts Section -->
+  <div class="alerts-container">
+    <h2>Emergency Alerts</h2>
+    <br>
+    <br>
+    <p>If you feel you are in an emergency, please use the following options to alert your contacts:</p>
+    <br>
+    
+    <form id="alertForm">
+      <label for="alertMessage">Alert Message:</label>
+      <textarea id="alertMessage" rows="4" placeholder="Enter your alert message..." required></textarea>
+      <br><br>
+      <button type="submit" class="alert-button">Send Alert</button>
+    </form>
+
+    <div id="alertResponse" class="alert-response"></div>
+  </div>
+
+  <script src="alerts.js"></script>
+
+</body>
+</html>
