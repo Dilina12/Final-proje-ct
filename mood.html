@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log Mood</title>
+  <link rel="stylesheet" href="mood.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="mood.html">Log Mood</a></li>
+      <li><a href="Vmood.html">View Mood</a></li>
+      <li><a href="alerts.html">Emergency Alerts</a></li>
+      <li><a href="consultation.html">Consultations</a></li>
+    </ul>
+  </nav>
+
+  <img src="logo1.png" alt="Euphoria Logo" class="logo-overlay">
+
+  <!-- Log Mood Section -->
+  <div class="mood-container">
+    <h2>How are you feeling today?</h2>
+    <form id="moodForm">
+      <label for="mood">Select Your Mood:</label>
+      <select id="mood" name="mood" required>
+        <option value="">-- Choose Mood --</option>
+        <option value="happy">😊 Happy</option>
+        <option value="sad">😢 Sad</option>
+        <option value="anxious">😰 Anxious</option>
+        <option value="angry">😠 Angry</option>
+        <option value="neutral">😐 Neutral</option>
+      </select>
+      <br><br>
+      <label for="note">Additional Notes (Optional):</label>
+      <textarea id="note" name="note" rows="4" placeholder="Add any thoughts..."></textarea>
+      <br><br>
+      <button type="submit" class="mood-button">Submit Mood</button>
+    </form>
+  </div>
+
+  <script src="mood.js"></script>
+</body>
+</html>

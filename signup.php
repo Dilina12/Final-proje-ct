@@ -45,16 +45,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <!-- Navigation Bar -->
   <nav class="navbar">
     <ul>
-      <li><a href="../Home/index.html">Home</a></li>
-      <li><a href="../Mood/mood.html">Log Mood</a></li>
-      <li><a href="../Vmood/Vmood.html">View Mood</a></li>
-      <li><a href="../Alerts/alerts.html">Emergency Alerts</a></li>
-      <li><a href="../Consultation/consultation.html">Consultations</a></li>
-      <li><a href="../Home/index.html#login">Login</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="mood.html">Log Mood</a></li>
+      <li><a href="Vmood.html">View Mood</a></li>
+      <li><a href="alerts.html">Emergency Alerts</a></li>
+      <li><a href="consultation.html">Consultations</a></li>
+      <li><a href="login.html">Login</a></li>
     </ul>
   </nav>
 
-  <img src="logo1.png" alt="Euphoria Logo" class="logo-overlay">
+  <img src="logo2.png" alt="Euphoria Logo" class="logo-overlay">
 
   <!-- Sign Up Section -->
   <div class="sign-up-container">

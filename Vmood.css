@@ -1,0 +1,75 @@
+.navbar {
+  background-color: #2E8B57; /* Green background */
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.navbar a:hover {
+  background-color: #3CB371;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+.logo-overlay {
+  position: absolute;
+  top: 50px; /* Adjust vertical positioning */
+  left: 1400px; /* Adjust horizontal positioning */
+  height: 110px; /* Adjust logo size */
+  width: auto; /* Maintain aspect ratio */
+}
+
+.view-mood-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.view-mood-container h2 {
+    text-align: center;
+    color: #333;
+}
+
+.mood-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.mood-table th, .mood-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.mood-table th {
+    background-color: #f2f2f2;
+}
